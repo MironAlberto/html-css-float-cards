@@ -10,3 +10,22 @@
 html{
     font-family: 'Fredoka', sans-serif;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* fine general */
+
+
+/* inizio header */
+header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: pink;
+    margin: 20px 0;
+}
+/* fine header */
