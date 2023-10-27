@@ -29,3 +29,49 @@ h1{
     margin: 20px 0;
 }
 /* fine header */
+
+/* inizio main */
+.cards > .card{
+    float: left;
+    width: calc((100% / 3) - 30px);
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.clearfix::after{
+    content: ("");
+    display: table;
+    clear: both;
+}
+
+.cards > .card > .image-card{
+    width: 100px;
+    height: 100px;
+}
+
+.cards > .card > .info-card{
+    width: calc(100% - 100px);
+    height: 100px;
+}
+
+.cards > .card > .image-card > img{
+    width: 100%;
+    display: block;
+}
+
+.info-card, .image-card{
+    float: left;
+    padding: 5px;
+    height: 100px;
+    background-color: black;
+}
+
+h3, h4{
+    color: white;
+}
+
+.h4-attributes{
+    margin: 9px 0;
+}
+/* fine main */
